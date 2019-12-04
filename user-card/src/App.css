@@ -1,0 +1,55 @@
+/* my profile card is in App */
+.App {
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1568402129481-dd0943849985?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80);
+  height: 100%;
+  /* background-image-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Lobster', cursive; 
+}
+
+.App h1 {
+  background-color: rgba(148, 147, 147, 0.719);
+  height: 100px;
+  padding-top: 20px;
+  color: white;
+}
+
+.logo {
+  border-radius: 12px;
+  border: 4px solid rgb(66, 66, 66);
+}
+.name {
+  font-size: 4rem;
+  color: purple;
+}
+
+.App p {
+  margin: 1% 45%;
+  width: 200px;
+  background-color: orange;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.8rem;
+}
+
+.followers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  background-color: rgba(56, 55, 55, 0.349);
+}
+
+.followers-card {
+  width: 25%;
+  height: 550px;
+  margin: 10px;
+}
+
+.followers-body {
+  background-color: rgb(230, 205, 64);
+  color: white;
+}
